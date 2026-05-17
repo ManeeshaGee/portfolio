@@ -3,7 +3,8 @@ import { motion, AnimatePresence } from 'motion/react';
 import { Award, ExternalLink, X, ShieldCheck } from 'lucide-react';
 import { Certification } from '../types';
 
-const CERT_DATA: Certification[] = [
+/** @type {Certification[]} */
+const CERT_DATA = [
   {
     id: '1',
     name: 'AWS Cloud Practitioner Essentials Certification',

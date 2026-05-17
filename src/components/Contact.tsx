@@ -90,7 +90,7 @@ export default function Contact() {
               
               <button 
                 type="submit"
-                className="w-full group flex items-center justify-center gap-3 bg-bento-accent text-black font-black uppercase tracking-widest py-5 rounded-2xl hover:scale-[1.02] active:scale-[0.98] transition-all"
+                className="w-full group flex items-center justify-center gap-3 bg-bento-accent text-black font-black uppercase tracking-widest py-5 text-1xl rounded-2xl hover:scale-[1.02] active:scale-[0.98] transition-all"
               >
                 SEND IT
                 <Send size={20} className="group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform" />

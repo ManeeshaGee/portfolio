@@ -33,9 +33,9 @@ export default function Hero() {
 
           <div className="relative z-10 flex flex-wrap gap-4 items-center justify-between mt-auto">
             <p className="text-bento-muted max-w-sm text-sm leading-relaxed">
-              A proud final year undergraduate at the University of Ruhuna.An enthusiast developer who loves to build and design.
+              A proud final year undergraduate at the University of Ruhuna. An enthusiast developer who loves to build and design digital solutions.
             </p>
-            <button className="group flex items-center gap-2 bg-bento-accent text-black px-6 py-3 rounded-full font-bold text-sm transition-all hover:scale-105">
+            <button className="group flex items-center gap-2 bg-bento-accent text-black px-6 py-3 rounded-full font-bold text-sm transition-all hover:scale-105" onClick={ ()=> {window.location.href = '#contact'}}>
               GET IN TOUCH
               <ArrowUpRight size={18} className="group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform" />
             </button>

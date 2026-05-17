@@ -20,7 +20,7 @@ const PROJECTS: Project[] = [
     title: 'Tuition Center LMS',
     category: 'Full Stack',
     description: 'A complete management system for Texas Tuition Center in Galle. Implemented a fully functional LMS and financial management system.',
-    imageUrl: '/lms_app.jpg',
+    imageUrl: '/texas_system.jpg',
     tags: ['React.js', 'Express.js', 'Node.js', 'MySQL'],
     link: '#',
     github: 'https://github.com/Nepul1234/TCMS-TEXAS'

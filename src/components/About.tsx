@@ -1,5 +1,5 @@
 import { motion } from 'motion/react';
-import { User, Cpu, Rocket, Globe, ArrowUpRight } from 'lucide-react';
+import { User, School, Rocket, Globe, ArrowUpRight } from 'lucide-react';
 
 const SKILLS = [
   "React", "Node.js", "Next.js", "Three.js","Tailwind CSS", "MySQL", "MongoDB", "Firebase", "Flutter", "Dart", "Java", "Python", "Docker", "C++"
@@ -49,11 +49,11 @@ export default function About() {
             <div className="space-y-8">
               <div className="flex items-start gap-4">
                 <div className="p-2 bg-blue-500/10 rounded-lg">
-                  <Cpu size={20} className="text-blue-500" />
+                  <School size={20} className="text-blue-500" />
                 </div>
                 <div>
-                  <h4 className="text-white font-bold mb-1">Internship Seeking</h4>
-                  <p className="text-bento-muted text-xs">Looking for full-stack software development</p>
+                  <h4 className="text-white font-bold mb-1">Final Year Undergraduate</h4>
+                  <p className="text-bento-muted text-xs">Looking for SE internship opportunities</p>
                 </div>
               </div>
               
